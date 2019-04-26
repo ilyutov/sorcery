@@ -775,7 +775,7 @@ def get_lm_source_id():
 
 def get_phost_id():
     
-    if not util.does_source_exec_exists():
+    if not util.does_phost_exec_exists():
         return None
 
     if util.is_windows():
