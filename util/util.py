@@ -5,11 +5,11 @@
 import os
 import platform
 
-WIN_LOG_SOURCE_EXEC = r"c:\Program Files (x86)\AlertLogic\agent\al-elc.exe.current"
-LINUX_LOG_SOURCE_EXE = "/var/alertlogic/lib/agent/bin/al-slc.current"
+WIN_LOG_SOURCE_EXEC = r"c:\Program Files (x86)\AlertLogic\agent\al-elc.exe"
+LINUX_LOG_SOURCE_EXE = "/var/alertlogic/lib/agent/bin/al-slc"
 
-WIN_PHOST_EXEC = r"c:\Program Files (x86)\AlertLogic\agent\al-tmhost.exe.current"
-LINUX_PHOST_EXEC = "/var/alertlogic/lib/agent/bin/al-tmhost.current"
+WIN_PHOST_EXEC = r"c:\Program Files (x86)\AlertLogic\agent\al-tmhost.exe"
+LINUX_PHOST_EXEC = "/var/alertlogic/lib/agent/bin/al-tmhost"
 
 WIN_HOST_EXEC = r"c:\Program Files (x86)\AlertLogic\agent\al-agent.exe"
 LINUX_HOST_EXEC = "/var/alertlogic/lib/agent/bin/al-agent"
