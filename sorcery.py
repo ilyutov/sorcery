@@ -867,7 +867,7 @@ def assign_me(api_key, cid, policy_name):
 
         policy_id = get_assignment_policy_id(api_key, cid, policy_name)
 
-        post_data = '{"protectedhost": {"appliance": {"policy": {"id": "%s"}}' % (policy_id)
+        post_data = '{"protectedhost": {"appliance": {"policy": {"id": "%s"}}}}' % (policy_id)
 
         api_endpoint += "%s" % (phost_id)
 
